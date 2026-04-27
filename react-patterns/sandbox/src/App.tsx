@@ -1,7 +1,12 @@
 import "./App.css";
 
 function App() {
-  return <span>Let's do it!</span>;
+  return (
+    <div>
+      <p>Let's do it! </p>
+      <canvas id="myCanvas" width="200" height="100"></canvas>
+    </div>
+  );
 }
 
 export default App;
